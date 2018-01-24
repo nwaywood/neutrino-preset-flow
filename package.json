@@ -1,0 +1,34 @@
+{
+  "name": "neutrino-preset-flow",
+  "version": "0.0.1",
+  "description": "Neutrino preset for adding flow support",
+  "author": "Nick Waywood <n.waywood@gmail.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwaywood/neutrino-preset-flow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nwaywood/neutrino-preset-flow/issues"
+  },
+  "keywords": [
+    "flow",
+    "neutrino",
+    "neutrino-preset",
+    "react"
+  ],
+  "dependencies": {
+    "@neutrinojs/loader-merge": "^8.0.18",
+    "babel-preset-flow": "^6.23.0",
+    "deepmerge": "^2.0.1",
+    "eslint": "^4.16.0",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-flowtype-errors": "^3.3.7",
+    "flow-bin": "^0.63.1",
+    "neutrino": "^8.0.18"
+  },
+  "peerDependencies": {
+    "neutrino": "^8.0.18"
+  },
+  "license": "GPL-3.0"
+}
