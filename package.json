@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-flow",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Neutrino preset for adding flow support",
   "author": "Nick Waywood <n.waywood@gmail.com>",
   "main": "index.js",
