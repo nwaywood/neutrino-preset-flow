@@ -41,6 +41,12 @@ npm install --save neutrino-preset-flow
     };
   ```
 
+  and then create the `.flowconfig` file at the root of your project.
+
+  ```
+  touch .flowconfig
+  ```
+
   And that's all. For `flow` specific usage, see their [docs][flow-url].
   For Neutrino usage, refer to their [documentation][neutrino-docs].
 

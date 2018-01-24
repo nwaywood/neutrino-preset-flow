@@ -1,5 +1,5 @@
 const loaderMerge = require("@neutrinojs/loader-merge")
-const merge = require('deepmerge');
+const merge = require("deepmerge")
 
 module.exports = (neutrino, options) => {
     neutrino.config.module
@@ -16,8 +16,7 @@ module.exports = (neutrino, options) => {
                 ]),
                 baseConfig: {
                     extends: options.baseConfig.extends.concat([
-                        "plugin:flowtype/recommended",
-                        "prettier/react"
+                        "plugin:flowtype/recommended"
                     ])
                 }
             })
