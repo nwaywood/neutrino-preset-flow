@@ -15,9 +15,11 @@ module.exports = (neutrino, options) => {
                     "flowtype-errors"
                 ]),
                 baseConfig: {
-                    extends: options.baseConfig.extends.concat([
-                        "plugin:flowtype/recommended"
-                    ])
+                    extends: options.baseConfig.extends
+                        ? options.baseConfig.extends.concat([
+                              "plugin:flowtype/recommended"
+                          ])
+                        : ["plugin:flowtype/recommended"]
                 }
             })
         )
