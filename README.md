@@ -34,7 +34,7 @@ npm install --save neutrino-preset-flow
   ```js
      module.exports = {
       use: [
-		'@neutrino/eslint',
+		'@neutrinojs/eslint',
         'neutrino-preset-react',
         'neutrino-preset-flow',
         ...
@@ -44,7 +44,7 @@ npm install --save neutrino-preset-flow
 
   and then create the `.flowconfig` file at the root of your project.
 
-  Note: Both `neutrino-preset-react` and `eslint` are required dependencies (`eslint` can be installed using any neutrino plugin that includes it, `@neutrino/eslint`, `neutrino-preset-prettier-eslint` etc...)
+  Note: Both `neutrino-preset-react` and `eslint` are required dependencies (`eslint` can be installed using any neutrino plugin that includes it, `@neutrinojs/eslint`, `neutrino-preset-prettier-eslint` etc...)
 
   ```
   touch .flowconfig
